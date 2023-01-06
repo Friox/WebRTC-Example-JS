@@ -1,0 +1,82 @@
+.accordion-button::after {
+	background-image: none
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: none
+}
+
+#status_table > tr > td:first-child {
+	text-align: end;
+	padding-right: 10px;
+}
+
+#status_table > tr > td:last-child {
+	padding-left: 10px;
+}
+
+.stepDesc p {
+	margin-bottom: 0
+}
+
+.videoWrapper {
+	position: relative
+}
+
+.videoWrapper > div {
+	position: absolute;
+    left: 0;
+    background: #00000059;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.videoWrapper > div.info {
+	left: unset;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 6px;
+    font-size: 10pt;
+    padding: 5px 10px;
+	font-size: 9pt
+}
+
+.videoWrapper > div > p {
+	margin: 0;
+	color: white
+}
+
+.videoWrapper > video {
+	width: 480px;
+	height: 360px;
+	border: 1px solid black;
+}
+
+#guideIndi {
+	display: none;
+	margin-left: 5px;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+
+#roomCodeInput {
+	width: 125px;
+	font-size: 20pt;
+	font-family: 'Roboto Mono', monospace;
+	text-align: center
+}
+
+#webrtcStepAccordion {
+	width: -webkit-fill-available;
+	margin-top: 25px
+}
+
+#roomGuide {
+	color: green
+}
