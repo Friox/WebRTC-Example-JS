@@ -17,13 +17,13 @@ CALLEE : `localhost:8081/join`
 으로 접속합니다.
 
 ## Dependency
-- express (https://github.com/expressjs/express)
-- socket.io (https://github.com/socketio/socket.io)
+- [express](https://github.com/expressjs/express)
+- [socket.io](https://github.com/socketio/socket.io)
 
 ## Framework & Libraries
-- Bootstrap 5.2.3 (https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-- Sweetalert2 (https://sweetalert2.github.io/)
-- Google Fonts (https://fonts.google.com/)
+- [Bootstrap 5.2.3](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+- [Sweetalert2](https://sweetalert2.github.io/)
+- [Google Fonts](https://fonts.google.com/)
 
 ## Note
 ### 용어정리
@@ -68,12 +68,12 @@ Caller -> Callee: Connected
 이러한 과정을 시그널링(Signaling) 이라고하며, 시그널링 서버의 구현은 WebRTC 사양에 포함되지 않습니다.
 
 ## Reference
-- WebRTC (https://webrtc.org/)
-- MDN Web Docs WebRTC (https://developer.mozilla.org/ko/docs/Web/API/WebRTC_API/Protocols)
-- WebRTC란 무엇인가?(2) : ICE, SDP, Signalling by gojaegaebal (https://velog.io/@gojaegaebal/210307-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%8090%EC%9D%BC%EC%B0%A8-%EC%A0%95%EA%B8%80-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%AC%B4%EA%B8%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-WebRTC%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%802-ICE-SDP-Signalling)
-- ICE의 이해 by 라인하트 (https://brunch.co.kr/@linecard/156)
-- [WebRTC] 웹브라우저로 화상 채팅을 만들 수 있다고? by ehdrms2034 (https://velog.io/@ehdrms2034/WebRTC-%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EB%A1%9C-%ED%99%94%EC%83%81-%EC%B1%84%ED%8C%85%EC%9D%84-%EB%A7%8C%EB%93%A4-%EC%88%98-%EC%9E%88%EB%8B%A4%EA%B3%A0)
-- WebRTC를 공부하며 스트리밍 과정 익히기 by GaGah (https://gh402.tistory.com/47)
-- WebRTC SDP by Heo Young Nam (https://cryingnavi.github.io/webrtc/2016/12/30/WebRTC-SDP.html)
+- [WebRTC](https://webrtc.org/)
+- [MDN Web Docs WebRTC](https://developer.mozilla.org/ko/docs/Web/API/WebRTC_API/Protocols)
+- [WebRTC란 무엇인가?(2) : ICE, SDP, Signalling by gojaegaebal](https://velog.io/@gojaegaebal/210307-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%8090%EC%9D%BC%EC%B0%A8-%EC%A0%95%EA%B8%80-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%AC%B4%EA%B8%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-WebRTC%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%802-ICE-SDP-Signalling)
+- [ICE의 이해 by 라인하트](https://brunch.co.kr/@linecard/156)
+- [웹브라우저로 화상 채팅을 만들 수 있다고? by ehdrms2034](https://velog.io/@ehdrms2034/WebRTC-%EC%9B%B9%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EB%A1%9C-%ED%99%94%EC%83%81-%EC%B1%84%ED%8C%85%EC%9D%84-%EB%A7%8C%EB%93%A4-%EC%88%98-%EC%9E%88%EB%8B%A4%EA%B3%A0)
+- [WebRTC를 공부하며 스트리밍 과정 익히기 by GaGah](https://gh402.tistory.com/47)
+- [WebRTC SDP by Heo Young Nam](https://cryingnavi.github.io/webrtc/2016/12/30/WebRTC-SDP.html)
 
 
