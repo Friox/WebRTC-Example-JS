@@ -20,6 +20,11 @@ CALLEE : `localhost:8081/join`
 - express (https://github.com/expressjs/express)
 - socket.io (https://github.com/socketio/socket.io)
 
+## Framework & Libraries
+- Bootstrap 5.2.3 (https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+- Sweetalert2 (https://sweetalert2.github.io/)
+- Google Fonts (https://fonts.google.com/)
+
 ## Note
 ### 용어정리
 - Caller : 세션을 개최하는 클라이언트, 방 만드는 클라이언트
