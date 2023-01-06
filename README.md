@@ -24,7 +24,8 @@ CALLEE : `localhost:8081/join`
 ### 용어정리
 - Caller : 세션을 개최하는 클라이언트, 방 만드는 클라이언트
 - Callee : 세션에 참가하는 클라이언트, 방에 입장하는 클라이언트
-- SDP : **S**ession **D**escription **P**rotocol, WebRTC에서 스트리밍 미디어의 해상도, 코덱등의 멀티미디어 초기인수를 기술하기 위한 프로토콜  
+- SDP : **S**ession **D**escription **P**rotocol, WebRTC에서 스트리밍 미디어의 해상도,  
+코덱등의 멀티미디어 초기인수를 기술하기 위한 프로토콜  
 - Offer SDP (제안 SDP) : Caller가 Callee에게 전송하는 SDP
 - Answer SDP (응답 SDP) : Callee가 Caller에게 전송하는 SDP
 - ICE : **I**nteractive **C**onnectivity **E**stablishment, 브라우저가 피어 간 연결을 수립할 수 있게 해주는 프레임워크.
